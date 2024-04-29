@@ -4,7 +4,7 @@ import requests
 
 seoul_api_key = '78654862626d6f7436394273514669'
 
-dsn = cx_Oracle.makedsn('localhost', 1521, 'xe')
+dsn = cx_Oracle.makedsn('192.168.0.230', 1521, 'xe')
 
 
 def df_creater(url):
